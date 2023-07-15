@@ -7,6 +7,7 @@ Build a fully reseponsive frontpage for Move-it, a fictious moving startup in Sa
 **Concepts and skills used in this project:**   
 `html` | `css` | `bootstrap`  
 
+**Screenshot**  
 ![move-it](./screenshots/move-it.png)  
 ___  
 
@@ -16,6 +17,7 @@ Build a fully reseponsive frontpage for the app TinDog- Tindor for Dogs!
 **Concepts and skills used in this project:**   
 `html` | `css` | `bootstrap`  
 
+**Screenshot**  
 ![tindog](./screenshots/tindog.png)  
 ___  
 
@@ -38,7 +40,7 @@ ___
 
 ## Day18 Project: Drum-it  
 Project for Day 18 of Udemy 2023 Web Development Bootcamp: A simple, fully responsive, fully interactive, fun drum set webset where you can hear different drum kit! Play it by either press the physical keyboard or click on-screen keys or simply click on the different part of drum image!
-[Try it out](https://jaycka.github.io/dicee-it/)  
+[SEE IT LIVE HERE.](https://jaycka.github.io/drum-it/)  
 **Concepts and skills used in this project:**  
 `HTML` | `CSS` | `JavaScript` | `DOM` | `EventListener`  
 
