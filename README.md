@@ -39,7 +39,7 @@ Project for Day 17 of Udemy 2023 Web Development Bootcamp: A stylish, fully inte
 ___  
 
 ## Day18 Project: Drum-it  
-Project for Day 18 of Udemy 2023 Web Development Bootcamp: A simple, fully responsive, fully interactive, fun drum set webset where you can hear different drum kit! Play it by either press the physical keyboard or click on-screen keys or simply click on the different part of drum image!
+Project for Day 18 of Udemy 2023 Web Development Bootcamp: A simple, fully responsive, fully interactive, fun drum set webset where you can hear different drum kit! Play it by either press the physical keyboard or click on-screen keys or simply click on the different part of drum image!  
 [SEE IT LIVE HERE.](https://jaycka.github.io/drum-it/)  
 **Concepts and skills used in this project:**  
 `HTML` | `CSS` | `JavaScript` | `DOM` | `EventListener`  
