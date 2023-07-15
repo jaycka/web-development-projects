@@ -1,0 +1,124 @@
+body{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #EC4A5E;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+
+h1{
+  color: #DBEDF3;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  text-shadow: 10px 0 #000000;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.hotkeys{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+
+
+.drum-btn {
+  background-color: rgb(243, 243, 243);
+  border: 2px solid black;
+  border-radius: 5px;
+  grid-column: span 2;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 17px;
+}
+
+#a{
+  grid-column: 1/3;
+  grid-row:1;
+}
+
+#s{
+  grid-column: 3/5;
+}
+
+#d{
+  grid-column: 5/7;
+}
+
+#j{
+  grid-column: 12/14;
+}
+
+#k{
+  grid-column: 14/16;
+}
+
+#l{
+  grid-column: 16/18;
+}
+
+.space{
+  grid-column: 5/14;
+}
+
+#Drums:hover {
+	cursor: pointer;
+}
+
+svg {
+	width: 50%;
+	display: block;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.pressed {
+  background-color: black;
+  color: white;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile-img{
+  top:0;
+  width: 4rem;
+  position: relative;
+  transition: 250ms top ease-in-out;
+}
+
+
+#profile-img:hover{
+  top: -1rem;
+  cursor: pointer;
+}
+
+
+#name{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2a324b;
+  border-radius: 0.3rem;
+  color:white;
+  width: 5%;
+  opacity:0;
+}
+
+footer:hover #name{
+  opacity: 1;
+}
