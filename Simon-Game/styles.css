@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+h1{
+  color: #212121;
+  font-size: 10rem;
+}
+
+body{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FAF0D7;
+}
+
+
+.playground{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* gap:10px */
+}
+
+.piece{
+  height: 300px;
+  width: 300px;
+  border: 0;
+  /* transition: all 0.2s ease; */
+}
+
+#red{
+  background-color: #f44336;
+  border-radius: 10px 0 0 0;
+}
+
+#blue{
+  background-color: #03A9F4;
+  border-radius: 0 10px 0 0;
+}
+
+#yellow{
+  background-color: #FDD835;
+  border-radius: 0 0 10px 0;
+}
+
+#green{
+  background-color: #4CAF50;
+  border-radius: 0 0 0 10px;
+}
+
+
+.control-panel{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background-color: #212121;
+  box-shadow: 0 5px 25px -5px black;
+  color: #FAF0D7;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.spin{
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile-img{
+  position: absolute;
+  bottom: 0;
+  top:0;
+  width: 4rem;
+  position: relative;
+  transition: 250ms top ease-in-out;
+}
+
+
+#profile-img:hover{
+  top: -1rem;
+  cursor: pointer;
+}
+
+
+#name{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2a324b;
+  border-radius: 0.3rem;
+  color:white;
+  opacity:0;
+  width: 50px;
+}
+
+footer:hover #name{
+  opacity: 1;
+}
+
+@media (max-width:801px){
+  h1{
+    font-size: 5rem;
+  }
+
+  .piece{
+    width: 150px;
+    height: 150px;
+  }
+
+  .playground{
+    width: 300px;
+    height: 300px;
+  }
+}

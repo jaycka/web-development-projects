@@ -51,5 +51,21 @@ Project for Day 18 of Udemy 2023 Web Development Bootcamp: A simple, fully respo
 * Play sound accordingly;  
 
 **Demo**  
-<img src='./screenshots/drum-it1.gif' width=100% />
+<img src='./screenshots/drum-it1.gif' width=100% />  
+___  
+
+# Project: Simon-game
+Project for Day 20 of Udemy 2023 Web Development Bootcamp: Simon game, a clasic yet popular memory board game, written in `HTML`+`CSS`+`Javascript`. It's simple, fully responsive, fully interactive, and fun-to-play. Click start to start the game, try to memorize the order or sounds of flashing piece, and play them out with the same order within the count down!  
+[SEE IT LIVE HERE.](https://jaycka.github.io/simon-game/)  
+**Concepts and skills used in this project:**  
+`HTML` | `CSS` | `JavaScript` | `jQuery` | `DOM` | `EventListener`
+
+**Features:**  
+* Real-time click sound and effect
+* Count down time depends on level
+* Cool spinning status wheel
+
+
+**Demo**  
+<img src='./screenshots/simon-game.gif' width=100% />
 
